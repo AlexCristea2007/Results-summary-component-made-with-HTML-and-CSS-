@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+<div class="summary-container">
+  
+  <div class="left-container" id="box">
+    <div class="content-wrapper">
+      <h3 class="txt-op" style="font-size: 25px; opacity: 0.7;">Your Result</h3>
+      <p class="score"><span id="number" style="font-size: 60px;font-weight: bold;">76</span><br> <span style="opacity: 0.7;">of 100</span></p>
+      <h3 style="font-size: 36px;">Great</h3>
+      <p class="txt-op" style="opacity: 0.7;">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+  </div>
+  
+  <div class="right-container" id="box">
+    <div class="content-wrapper2">
+      <h3 style="font-size: 25px;">Summary</h3>
+      <div class="reaction-s">
+        <p style="color:hsl(0, 100%, 67%);">&#9889; Reaction
+          <span id="result"><span id="stat-score">80</span><span id="out-of"> / 100</span></span>
+        </p>
+      </div>
+      <div class="memory-s">
+        <p style="color: hsl(39, 100%, 56%);">&#129504; Memory 
+          <span id="result"><span id="stat-score">92</span><span id="out-of"> / 100</span></span>
+        </p>
+      </div>
+      <div class="verbal-s">
+        <p style="color: hsl(166, 100%, 37%);">&#128068; Verbal 
+          <span id="result"><span id="stat-score">61</span><span id="out-of"> / 100</span></span>
+        </p>
+      </div>
+      <div class="visual-s">
+        <p style="color: hsl(234, 85%, 45%)">&#128065; Visual 
+          <span id="result"><span id="stat-score">72</span><span id="out-of"> / 100</span></span>
+        </p>
+      </div>
+      <a href="#attribution" class="button">Continue</a>
+    </div>
+  </div>
+</div>  
+
+  <div class="attribution" id="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Cristea Adrian Alexandru</a>.
+  </div>
+</body>
+</html>
